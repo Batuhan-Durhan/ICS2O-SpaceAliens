@@ -6,19 +6,18 @@
 // Created on: April 2022
 // This is the Phaser3 configuration file
 
-// scene import statements
 import SplashScene from "./splashScene.js"
 import TitleScene from "./titleScene.js"
 import MenuScene from "./menuScene.js"
+import GameScene from "./gameScene.js"
 
-// Create the new scenes
+// Our game scenes
 const splashScene = new SplashScene()
 const titleScene = new TitleScene()
-const menuScene = new MenuScene
+const menuScene = new MenuScene()
+const gameScene = new GameScene()
 
-/**
- * Start Phasr Gamer.
- */
+//* Game Scenes */
 const config = {
   type: Phaser.AUTO,
   width: 1920,
